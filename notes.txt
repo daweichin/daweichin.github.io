@@ -1,0 +1,18 @@
+TODO 
+
+1. Build the project 
+  - create the project
+  - add files
+  - connect files
+
+2. Navbar 
+
+3. Portfolio Item Grid 
+  - images
+  - animations
+  - javascript 
+
+4. About Page 
+  - split column layout 
+
+  
