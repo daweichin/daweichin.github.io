@@ -1,16 +1,221 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <base target="_blank">
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>David Chin Portfolio Website</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/img/favicon/favicon.ico"
+    />
+
+    <link rel="manifest" href="favicon_io (1)/" />
+
+    <title>David Chin Personal Website</title>
   </head>
 
+  <!-- Header Section-->
   <body>
-    <div class="container">
-      <div class="test">Welcome to David's Portfolio Website</div>
-    </div>
+    <section class="header">
+      <div class="header-container">
+        <div class="col-1">
+          <h2 class="expand">David</h2>
+          <h2 class="expand">Chin</h2>
+          <h3 class="center">Web Developer <hr> Digital Portfolio</h3>
+          <div class="social-links center">
+            <a target="_blank" href="https://github.com/domainance"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a href="https://github.com/domainance"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <a href="https://github.com/domainance"
+              ><i class="fas fa-file-pdf"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section-->
+    <section class="about">
+      <div class="container">
+        <div class="col-side">
+          <img
+            id="test"
+            src="assets/img/David_Chin_photo.jpg"
+            alt=""
+          />
+          <div class="about-list">
+            <p>Hi! My name is David and I'm a passionate web developer and have been programming casually playing with lots of web technologies. I'm currently inbetween graduating from a Bachelor of Commerce from the University of Melbourne (Finance, Economics) and pursuing a further qualification in IT. <br> <br> I aspire towards a career filled with challenges that will help me grow as I build practical and beautiful solutions.</p>
+          </div>
+        </div>
+     
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Project Section-->
+    <section class="main">
+      <div class="container">
+        <h2 class="section-intro">Projects</h2>
+        <hr style="width: 50%;">
+        <div class="project-container">
+          <!-- PTM Project -->
+          <div class="project">
+            <div class="project-content">
+              <img src="assets/img/clock.jpg" alt="" />
+              <h2>Productivity Time Tracker</h2>
+                <button class="button modal-1">Project Details</button>
+            </div>
+          </div>
+
+          <div id="modal-1" class="modal">
+            <div class="modal-header">
+              <span class="close-btn">&times;</span>
+              <h1>Project Details</h1>
+              <img src="assets/img/prog_ptm.JPG" alt="test">
+            </div>
+   
+            <div class="modal-content">
+              <p>I built this project to help myself track exactly what I am doing with my time whilst trying to learn something. Authentication and backend handled with Firebase.</p>
+              <h4>HTML | CSS | JS | JQUERY | AJAX | NODEJS | EXPRESS | FIREBASE | Bootstrap | Linux CLI</h4>
+            </div>
+            <div class="modal-footer">
+              <div class="btn-group">
+               <a class="link-button" href=""><i class="fas fa-external-link-alt"></i>Live Demo</a>
+               <a class="link-button" href="https://github.com/domainance/productivity-time-tracker"><i class="fab fa-github"></i>Code</a>
+            </div>
+            </div>
+            </div>
+
+          <!-- Enactus Projects -->
+          <div class="project">
+            <div class="project-content">
+              <img src="assets/img/Enactus-Melbourne-2019-White-1024x449.png" alt="" />
+              <h2>Enactus Melbourne</h2>
+              <button class="button modal-2">Project Details</button>
+            </div>
+          </div>
+
+          <div id="modal-2" class="modal">
+              <div class="modal-header">
+              <span class="close-btn">&times;</span>
+              <h1>Project Details</h1>
+              <img src="assets/img/proj_enactus.JPG" alt="test">
+              </div>
+              <div class="modal-content">
+                <p>Created and set up hosting of multiple project sites and e-commerce sites for social entrepreneurship club Enactus Melbourne Uni as the IT Officer</p>
+               <h4> WORDPRESS | WOOCOMMERCE | ELEMENTOR | CPANEL | TRELLO </h4>
+              </div>
+              <div class="modal-footer">
+               <div class="btn-group">
+               <a class="link-button" target="_blank" href="https://enactusunimelb.org.au/">Enactus Main</a>
+               <a class="link-button" href="https://swapcup.org/">Swap Cup</a>
+
+               </div>
+              </div>
+            </div>
+          
+         
+          <!-- MC Dashboard Project -->
+          <div class="project">
+            <div class="project-content">
+              <img src="assets/img/manadcentral.png" alt="" />
+              <h2>Manad Central</h2>
+              <button class="button modal-3">Project Details</button>
+            </div>
+          </div>
+
+          <div id="modal-3" class="modal">
+              <div class="modal-header">
+              <span class="close-btn">&times;</span>
+              <h1>Project Details</h1>
+              </div>
+              <div class="modal-content">
+                <p>Project that was built for a healthcare business to help support staff look-up client software details. I worked only on the front end of the project, which included getting json data from the backend API and mapping it to a kendo UI table.</p>
+               <h4> Angular6 | KendoUI | REST API | CSS</h4>
+              </div>
+              <div class="modal-footer">
+               <div class="btn-group">
+               <a class="link-button" style="text-decoration: line-through">Private Source Code</a>
+               
+               </div>
+              </div>
+            </div>
+
+            <!-- Digital Portfolio -->
+
+            <div class="project">
+              <div class="project-content">
+                <img src="assets/img/test.png" alt="" />
+                <h2>Digital Portfolio</h2>
+                <button class="button modal-4">Project Details</button>
+              </div>
+            </div>
+  
+            <div id="modal-4" class="modal">
+                <div class="modal-header">
+                <span class="close-btn">&times;</span>
+                <h1>Project Details</h1>
+                </div>
+                <div class="modal-content">
+                  <p>My personal website written in plain HTML, CSS and a bit of Javascript</p>
+                 <h4>HTML | CSS | JS </h4>
+                </div>
+                <div class="modal-footer">
+                 <div class="btn-group">
+                 <a class="link-button" href="https://google.com">Live Demo</a>
+                 <a class="link-button" href="https://github.com"><i class="fab fa-github"></i>Code </a>
+                 </div>
+                </div>
+              </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section-->
+    <section class="contact"></section>
+
+    <!-- Footer Section-->
+    <section class="footer">
+      <p>Website by DC</p>
+      <p>Email: dchin102@gmail.com
+      </p>
+      <div class="social-links">
+        <a href="https://github.com/domainance"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a href="https://github.com/domainance"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+        <a href="https://github.com/domainance"
+          ><i class="fas fa-file-pdf"></i
+        ></a>
+      </div>
+    </section>
+
+    <script src="assets/js/main.js"></script>
   </body>
 </html>
