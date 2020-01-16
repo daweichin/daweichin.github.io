@@ -2,8 +2,18 @@
   box-sizing: border-box;
 }
 
-p {
-  font-size: 1.2rem;
+p,
+h4 {
+  font-size: 0.9rem;
+}
+
+@media screen and (min-width: 768px) {
+  p {
+    font-size: 1.2rem;
+  }
+  h4 {
+    font-size: 1.2rem;
+  }
 }
 
 html {
@@ -50,7 +60,7 @@ body {
 .center {
   opacity: 0;
   text-align: center;
-  animation: fadein 0.5s forwards 1.25s;
+  animation: fadein 0.5s forwards 1.4s;
 }
 
 .header-container {
@@ -67,39 +77,19 @@ body {
   justify-content: center;
   align-items: center;
   width: 100vw;
-  animation: fadein 0.8s linear forwards;
-}
-
-.header-container .col-2 {
-  display: none;
-  justify-content: center;
-  align-items: center;
-  width: 50vw;
-  z-index: -1;
-}
-
-.header-container .col-2 img {
-  border: 2px solid black;
-  padding: 3rem;
-  background: rgba(0, 0, 0, 0);
   opacity: 0;
-  animation: 1s fadein linear;
-  animation-delay: 1.25s;
-  animation-fill-mode: forwards;
-  max-height: 375px;
+  animation: fadein 1s ease-in-out forwards 0.15s;
 }
 
 .header-container .expand {
   font-family: "Roboto Mono", monospace;
-
   color: black;
   padding: 0;
   margin: 0;
   overflow: hidden;
   font-size: 15rem;
   width: 1ch;
-  animation: 0.8s expand ease-in-out;
-  animation-delay: 1.25s;
+  animation: 0.8s expand ease-in-out 1.4s;
   animation-fill-mode: forwards;
   text-shadow: 2px 2px 6px grey;
 }
@@ -370,10 +360,9 @@ a {
   position: relative;
 
   background-color: white;
-  padding: 20px;
+  padding: 10px 20px 10px 20px;
   margin: auto;
   width: 75%;
-
   -webkit-animation-name: animatetop;
   -webkit-animation-duration: 0.4s;
   animation-name: animatetop;
