@@ -7,14 +7,6 @@ h4 {
   font-size: 0.9rem;
 }
 
-@media screen and (min-width: 768px) {
-  p {
-    font-size: 1.2rem;
-  }
-  h4 {
-    font-size: 1.2rem;
-  }
-}
 
 html {
   margin: 0;
@@ -22,20 +14,6 @@ html {
   width: 100%;
   font-size: 16px;
 }
-
-/* body {
-  background: #8e9eab; 
-  background: -webkit-linear-gradient(
-    to bottom,
-    #eef2f3,
-    #686868
-  ); 
-  background: linear-gradient(
-    to bottom,
-    #eef2f3,
-    #8e9eab
-  ); 
-} */
 
 body {
   margin: 0;
@@ -46,6 +24,10 @@ body {
   box-sizing: border-box;
   background: white;
 }
+
+/*@@@@@@@@@@@@@@ */
+/* Header section */
+/*@@@@@@@@@@@@@@ */
 
 .header {
   display: flex;
@@ -88,7 +70,7 @@ body {
   padding: 0;
   margin: 0;
   overflow: hidden;
-  font-size: 15rem;
+  font-size: 10rem;
   width: 1ch;
   animation: 0.8s expand ease-in-out 1.4s;
   animation-fill-mode: forwards;
@@ -99,7 +81,6 @@ body {
 @keyframes expand {
   0% {
     width: 1ch;
-    font-size: 15rem;
   }
   50% {
     width: 1ch;
@@ -466,4 +447,16 @@ i {
 
 i:hover {
   color: black;
+}
+
+
+@media screen and (min-width: 768px) {
+  p {
+    font-size: 1.2rem;
+  }
+  h4 {
+    font-size: 1.2rem;
+  }
+  .header-container .expand {
+    font-size: 15rem;
 }
