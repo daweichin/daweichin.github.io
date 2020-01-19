@@ -330,24 +330,36 @@ a {
   -webkit-animation-duration: 0.4s;
   animation-name: animatetop;
   animation-duration: 0.4s;
-  text-align: center;
-}
-.modal-header img {
-  display: none;
-  position: relative;
-  width: 100%;
-  max-width: 900px;
-  max-height: 500px;
 }
 
+.modal-img {
+  display: none;
+  position: relative;
+  background-color: white;
+  padding: 20px;
+  margin: auto;
+  max-width: 75%;
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+  text-align: center;
+}
+
+.modal-img img {
+  max-width: 75%;
+  max-height: 60%;
+
+}
+
+
 @media screen and (min-width: 768px) {
-  .modal-header img {
+  .modal-img {
     display: block;
   }
 }
 .modal-footer {
   position: relative;
-
   background-color: white;
   padding: 10px 20px 10px 20px;
   margin: auto;
