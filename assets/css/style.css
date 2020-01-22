@@ -36,14 +36,17 @@ body {
   align-items: center;
   height: 100vh;
   width: 100%;
-  animation: 0.5 header ease 1.25s;
   box-sizing: border-box;
+}
+
+.header h3 {
+  font-size: 2rem;;
 }
 
 .center {
   opacity: 0;
   text-align: center;
-  animation: fadein 0.5s forwards 1.4s;
+  animation: fadein 0.5s forwards 1.5s;
 }
 
 .header-container {
@@ -61,7 +64,7 @@ body {
   align-items: center;
   width: 100vw;
   opacity: 0;
-  animation: fadein 1s ease-in-out forwards 0.15s;
+  animation: fadein 1s linear forwards 0.3s;
 }
 
 .header-container .expand {
@@ -72,7 +75,7 @@ body {
   overflow: hidden;
   font-size: 10rem;
   width: 1ch;
-  animation: 0.8s expand ease-in-out 1.4s;
+  animation: 0.8s expand ease-in-out 1.3s;
   animation-fill-mode: forwards;
   text-shadow: 2px 2px 6px grey;
 }
@@ -115,8 +118,8 @@ body {
 }
 
 .about h2,
-h3,
-ul {
+.about h3,
+.about ul {
   font-size: 2rem;
 }
 
@@ -402,6 +405,20 @@ a {
     top: 0;
     opacity: 1;
   }
+}
+
+/*@@@@@@@@@@@@@@ */
+/* Contact section */
+/*@@@@@@@@@@@@@@ */
+
+.contact {
+  text-align: center;
+  margin: 2.5%;
+}
+
+#contact-me a, #contact-me h2 { 
+  font-size: 2rem;
+  margin: 0;
 }
 
 /*@@@@@@@@@@@@@@ */
