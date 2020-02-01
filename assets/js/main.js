@@ -15,7 +15,6 @@ let modalBtns = document.querySelectorAll(".button");
 for (var i = 0; i < modalBtns.length; i++) {
   modalBtns[i].addEventListener("click", function() {
     var modalId = this.classList[1];
-    console.log(modalId);
     let modal = document.getElementById(modalId);
     let closeBtn = modal.querySelector(".close-btn");
 

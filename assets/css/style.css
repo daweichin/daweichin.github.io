@@ -7,7 +7,6 @@ h4 {
   font-size: 0.9rem;
 }
 
-
 html {
   margin: 0;
   padding: 0;
@@ -20,7 +19,7 @@ body {
   padding: 0;
   height: 100%;
   width: 100%;
-  font-family: "Playfair Display", serif;
+  font-family: "Montserrat", sans-serif;
   box-sizing: border-box;
   background: white;
 }
@@ -40,7 +39,7 @@ body {
 }
 
 .header h3 {
-  font-size: 2rem;;
+  font-size: 2rem;
 }
 
 .center {
@@ -65,6 +64,15 @@ body {
   width: 100vw;
   opacity: 0;
   animation: fadein 1s linear forwards 0.3s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .header-container .expand {
@@ -95,15 +103,6 @@ body {
   }
 }
 
-@keyframes fadein {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
 .header .social-links {
   width: auto;
 }
@@ -125,7 +124,7 @@ body {
 
 .about .container {
   height: 100%;
-  width: inherit;
+  width: 80%;
   display: inline-block;
   align-items: center;
   justify-content: space-around;
@@ -137,7 +136,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
-  border-radius: 20% 0 20% 0;
+  border-radius: 30px;
+  margin: 0 10%;
 }
 
 .about .col-side {
@@ -160,12 +160,17 @@ body {
 }
 
 .about-list {
+  display: flex;
+  padding: 0 2.5%;
   opacity: 0;
-  padding: 0;
   list-style: none;
   transform: translateY(30px);
   transition: 0.5s all ease-in-out;
   margin: 0 10%;
+}
+
+.about-list div {
+  margin: 0 20px;
 }
 
 @media screen and (min-width: 768px) {
@@ -195,8 +200,8 @@ body {
 
 .main .project-container {
   width: 100%;
-  margin: 5% 0;
-  padding: 0 2.5%;
+  margin: 0 0 5% 0;
+  padding: 0 10%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -238,6 +243,7 @@ a {
 
 .project-content img {
   width: 100%;
+  max-width: 300px;
   height: 300px;
 }
 .btn-group {
@@ -352,9 +358,7 @@ a {
 .modal-img img {
   max-width: 75%;
   max-height: 400px;
-
 }
-
 
 @media screen and (min-width: 768px) {
   .modal-img {
@@ -416,7 +420,8 @@ a {
   margin: 2.5%;
 }
 
-#contact-me a, #contact-me h2 { 
+#contact-me a,
+#contact-me h2 {
   font-size: 2rem;
   margin: 0;
 }
@@ -478,7 +483,6 @@ i:hover {
   color: black;
 }
 
-
 @media screen and (min-width: 768px) {
   p {
     font-size: 1.2rem;
@@ -488,4 +492,11 @@ i:hover {
   }
   .header-container .expand {
     font-size: 15rem;
+  }
+
+  .project-content img {
+    width: 100%;
+    max-width: 350px;
+    height: 350px;
+  }
 }
