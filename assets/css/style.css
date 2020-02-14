@@ -2,6 +2,18 @@
   box-sizing: border-box;
 }
 
+#particles-js {
+  background: white;
+  background: linear-gradient(
+    180deg,
+    rgba(2, 0, 41, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  height: 100vh;
+  opacity: 0;
+  animation: fadein 1s linear forwards 0.3s;
+}
+
 p,
 h4 {
   font-size: 0.9rem;
@@ -30,9 +42,8 @@ body {
 
 .header {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  position: absolute;
+  color: white;
   height: 100vh;
   width: 100%;
   box-sizing: border-box;
@@ -43,9 +54,10 @@ body {
 }
 
 .center {
+  margin: 0;
   opacity: 0;
   text-align: center;
-  animation: fadein 0.5s forwards 1.5s;
+  animation: fadein 0.5s forwards 1.75s;
 }
 
 .header-container {
@@ -63,7 +75,7 @@ body {
   align-items: center;
   width: 100vw;
   opacity: 0;
-  animation: fadein 1s linear forwards 0.3s;
+  animation: fadein 1s linear forwards 1s;
 }
 
 @keyframes fadein {
@@ -77,15 +89,14 @@ body {
 
 .header-container .expand {
   font-family: "Roboto Mono", monospace;
-  color: black;
+  color: white;
   padding: 0;
   margin: 0;
   overflow: hidden;
   font-size: 10rem;
   width: 1ch;
-  animation: 0.8s expand ease-in-out 1.3s;
+  animation: 1.25s expand ease-in-out 1.5s;
   animation-fill-mode: forwards;
-  text-shadow: 2px 2px 6px grey;
 }
 
 /* Short term fix on text overflow */
@@ -112,8 +123,9 @@ body {
 /*@@@@@@@@@@@@@@ */
 
 .about {
-  margin: 0;
+  padding: 100px 0;
   width: inherit;
+  background: rgba(255, 255, 255, 1);
 }
 
 .about h2,
@@ -189,10 +201,10 @@ body {
 
 .main {
   width: 100vw;
+  background: rgba(255, 255, 255, 1);
 }
 
 .section-intro {
-  margin-top: 20px;
   font-size: 3rem;
   text-align: center;
   font-weight: lighter;
@@ -434,7 +446,9 @@ a {
   height: auto;
   width: 100%;
   margin-top: 30px;
-  background-color: lightblue;
+  padding: 30px 0;
+  background-color: white;
+  border-top: 1px solid black;
   color: black;
   display: flex;
   flex-direction: row;
