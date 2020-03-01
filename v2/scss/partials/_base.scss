@@ -1,0 +1,38 @@
+// Reset CSS
+html {
+  font-size: 62.5%;
+}
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat";
+}
+
+.section {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 128px 256px;
+}
+
+.section-title {
+  padding-right: 75px;
+  text-transform: uppercase;
+  color: red;
+  font-size: 3rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+* {
+  color: black;
+}
+
+#fp-nav ul li .fp-tooltip:hover {
+  color: black !important;
+}
+
+/*# sourceMappingURL=main.css.map */

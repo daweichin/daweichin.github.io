@@ -1,0 +1,28 @@
+.background {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: row;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  border: 1px solid red;
+  flex: 1 0 auto;
+}
+
+.test {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex: 1 0 auto;
+}
+
+p {
+  margin: 0;
+  font-size: 2rem;
+  margin-bottom: 48px;
+  color: #333352;
+  font-weight: 500;
+}
+/*# sourceMappingURL=background.css.map */
