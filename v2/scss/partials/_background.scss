@@ -6,6 +6,9 @@
   -ms-flex-pack: distribute;
   justify-content: space-around;
   border: 1px solid red;
+  @include breakpoint(xs) {
+    flex-direction: column;
+  }
 }
 
 p {

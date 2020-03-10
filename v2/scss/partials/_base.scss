@@ -14,20 +14,32 @@ body {
   display: flex;
   justify-content: center;
   padding: 128px 256px;
+  @include breakpoint(sm) {
+    padding: 128px 128px;
+    font-size: 1.6rem;
+  }
+
+  @include breakpoint(xs){
+    padding: 128px 0px;
+    font-size: 1.6rem;
+    flex-direction: column;
+  }
 }
 
 .section-title {
   padding-right: 50px;
+  width: 250px;
   text-transform: uppercase;
-  text-align: right;
+  text-align: left;
   color: red;
-  font-size: 2rem;
-
+  @include breakpoint (xs) {
+    text-align: left;
+  }
 }
 
 .section-content {
-  overflow: hidden;
-  width: 400px;
+  word-break: break-word;
+  width: auto;
 }
 
 * {

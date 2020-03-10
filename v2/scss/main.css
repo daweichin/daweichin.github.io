@@ -6,16 +6,8 @@ h2 {
   font-size: 3.2rem;
 }
 
-ul {
-  font-size: 2.4rem;
-  margin: 0;
-  padding: 0;
-  margin-bottom: 3.2rem;
-  margin-right: 6.4rem;
-}
-
-li {
-  font-size: 2.4rem;
+p {
+  overflow-wrap: break-word;
 }
 
 html {
@@ -40,17 +32,41 @@ body {
   padding: 128px 256px;
 }
 
+@media (min-width: 768px) {
+  .section {
+    padding: 128px 128px;
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .section {
+    padding: 128px 0px;
+    font-size: 1.6rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .section-title {
   padding-right: 50px;
+  width: 250px;
   text-transform: uppercase;
-  text-align: right;
+  text-align: left;
   color: red;
-  font-size: 2rem;
+}
+
+@media (max-width: 767px) {
+  .section-title {
+    text-align: left;
+  }
 }
 
 .section-content {
-  overflow: hidden;
-  width: 400px;
+  word-break: break-word;
+  width: auto;
 }
 
 * {
@@ -65,6 +81,13 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  max-width: 400px;
+}
+
+@media (min-width: 992px) {
+  .header {
+    max-width: 600px;
+  }
 }
 
 .background {
@@ -78,6 +101,15 @@ body {
   -ms-flex-pack: distribute;
   justify-content: space-around;
   border: 1px solid red;
+}
+
+@media (max-width: 767px) {
+  .background {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
 p {
@@ -95,10 +127,23 @@ p {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+}
+
+ul {
+  font-size: 2.4rem;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 3.2rem;
+  margin-right: 6.4rem;
+  margin-right: 6.4rem;
+}
+
+li {
+  font-size: 1.6rem;
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,6 +1,22 @@
 .skills-container {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
+
+.skills-item {
+}
+
+ul {
+    font-size: 2.4rem;
+    margin:0;
+    padding:0;
+    margin-bottom: 3.2rem;
+    margin-right: 6.4rem;
+    margin-right: 6.4rem;
+  }
+  
+li {
+    font-size: 1.6rem;
+  }
