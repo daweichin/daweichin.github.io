@@ -17,14 +17,17 @@ body {
 }
 
 .section-title {
-  padding-right: 75px;
+  padding-right: 50px;
   text-transform: uppercase;
+  text-align: right;
   color: red;
-  font-size: 3rem;
+  font-size: 2rem;
+
 }
 
-h1 {
-  text-align: center;
+.section-content {
+  overflow: hidden;
+  width: 400px;
 }
 
 * {
