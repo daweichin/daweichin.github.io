@@ -1,21 +1,14 @@
 .background {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  flex-direction: row;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
-  border: 1px solid red;
   @include breakpoint(xs) {
     flex-direction: column;
   }
 }
-
-p {
+.content {
   margin: 0;
   font-size: 2rem;
   margin-bottom: 48px;
-  color: #333352;
+  color: #333;
   font-weight: 500;
+  line-height: 1.75;
 }
 /*# sourceMappingURL=background.css.map */

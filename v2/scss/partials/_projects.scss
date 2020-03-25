@@ -1,0 +1,65 @@
+.project {
+  height: auto;
+  margin-bottom: 48px;
+  padding-bottom: 16px;
+  opacity: 0;
+
+  &.featured {
+    border: none;
+    @include breakpoint(xs) {
+      padding: 0;
+    }
+  }
+  padding-left: 32px;
+  border-left: 10px solid $dark-red;
+  border-bottom: 4px solid $dark-red;
+  border-radius: 0px 0px 0px 3.2rem;
+
+  .proj-label {
+    font-size: 2rem;
+  }
+
+  .proj-head {
+    margin: 0;
+    padding: 0;
+
+    a {
+      font-size: 2.4rem;
+    }
+  }
+
+  img {
+    width: 100%;
+    @include breakpoint(xs) {
+      display: none;
+    }
+    @include breakpoint(md) {
+      width: 100%;
+    }
+    @include breakpoint(lg) {
+      width: 100%;
+    }
+  }
+}
+
+// Other Projects
+.skills-labels {
+  margin-bottom: 16px;
+  display: table;
+
+  .skill {
+    display: inline-block;
+    font-size: 1.2rem;
+    color: black;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    margin-right: 1rem;
+    margin-left: 0;
+    border: 1px solid $dark-blue;
+    border-radius: 0.5rem;
+  }
+}
+
+.links {
+  font-size: 2.4rem;
+}

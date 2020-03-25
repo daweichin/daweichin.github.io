@@ -1,22 +1,30 @@
 .skills-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  .skills-list {
+    list-style: none;
+    font-size: 2rem;
+    text-align: left;
+    line-height: 1.75;
+    padding: 0;
+    margin: 32px;
+    margin-top: 0;
+    margin-left: 0;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.skills-item {
-}
-
-ul {
-    font-size: 2.4rem;
-    margin:0;
-    padding:0;
-    margin-bottom: 3.2rem;
-    margin-right: 6.4rem;
-    margin-right: 6.4rem;
+    flex-direction: column;
+    flex: 0 1 200px;
+    @include breakpoint(sm) {
+      flex: 1 0 175px;
+    }
   }
-  
-li {
-    font-size: 1.6rem;
+  .list-heading {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 1.6rem;
+    font-size: $heading-text;
+    line-height: 1;
+    text-transform: uppercase;
   }
+}

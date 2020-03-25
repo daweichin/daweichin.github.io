@@ -9,107 +9,304 @@
       href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <title>DC Website v2</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    />
+    <title>David Chin Personal Website</title>
   </head>
   <body>
-    <div id="fullpage">
-      <!-- Utilities -->
+    <!-- Utilities -->
 
-      <!-- Header -->
-      <div class="section header">
-        <h2>Nice to meet you!</h2>
-        <h2>
-          I'm David, a web developer focused on front-end engineering and
-          beautiful designs.
-        </h2>
-        <h2>Lets chat <a href="www.google.com" target="_blank"></a><i class="material-icons">face</i>
-        </h2>
+    <!-- Header -->
+    <div class="header">
+      <h2 class="header-text">Hey!</h2>
+      <h2 class="header-text">
+        I'm <strong>David</strong>, a student / web developer focused on
+        front-end engineering and clean, intuitive design.
+      </h2>
+      <h2 class="social-links">
+        <a target="_blank" href="https://github.com/domainance"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a href="https://codepen.io/domainance"
+          ><i class="fab fa-codepen"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/david-chin-0a511a129/"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a href="assets/misc/DavidCHIN_CV.pdf"
+          ><i class="fas fa-file-pdf"></i
+        ></a>
+        <a href="mailto:dchin102@gmail.com"
+          ><i class="fas fa-envelope-square"></i
+        ></a>
+      </h2>
+    </div>
+
+    <!-- Background -->
+    <div class="section background">
+      <div class="section-title">
+        Background
       </div>
-
-      <!-- Background -->
-      <div class="section background">
-          <div class="section-title">
-            Background
-          </div>
-          <div class="section-content">
-            <p>
-              I'm a student in my first year of studying Information Technology at
-              Melbourne University. I have experience developing for the web,
-              ranging from static pages to full-stack applications. My goal is
-              to improve as a developer and create beautiful and practical
-              applications.
-            </p>
-            <p>
-              I am always learning new technologies and design patterns (there
-              is such a wide variety of tools these days) and am tech-agnostic.
-              I believe in whatever technology will get the job done in a
-              efficient but thorough manner.
-            </p>
-            <p>
-              <strong>When I'm away from my computer,</strong> I'm playing pool,
-              cycling, working out or learning how to cook a new dish.
-            </p>
-          </div>
+      <div class="section-content">
+        <p class="content">
+          I'm a <strong>student</strong> in my first year of studying
+          Information Technology at Melbourne University. I have experience
+          developing for the web, ranging from static pages to full-stack
+          applications. My goal is to
+          <strong>improve as a developer</strong> and create beautiful and
+          practical applications.
+        </p>
+        <p class="content">
+          I find learning new technologies fun, but also
+          <strong>understanding</strong> how they came to be and what problem
+          they solve in the real world.
+        </p>
+        <p class="content">
+          <strong>When I'm away from my computer,</strong> I'm playing pool,
+          cycling, working out or learning how to cook a new dish.
+        </p>
       </div>
+    </div>
 
-      <!-- Skills -->
-      <div class="section">
-        <div class="section-title">
-          Skills
+    <!-- Skills -->
+    <div class="section">
+      <div class="section-title">
+        i like to use
+      </div>
+      <div class="section-content">
+        <div class="skills-container">
+          <ul class="skills-list">
+            <h3 class="list-heading">Languages</h3>
+            <li>HTML</li>
+            <li>CSS/SASS</li>
+            <li>JavaScript (ES6)</li>
+            <li>C#</li>
+            <li>Python</li>
+          </ul>
+          <ul class="skills-list">
+            <h3 class="list-heading">Design</h3>
+            <li>Figma</li>
+            <li>Paint .Net</li>
+            <li>UI/UX Practice</li>
+            <li>Material Design</li>
+            <li>Responsive Design</li>
+            <li>MVC Pattern</li>
+          </ul>
+          <ul class="skills-list">
+            <h3 class="list-heading">Framework</h3>
+            <li>Nodejs/Express</li>
+            <li>Angular</li>
+            <li>.Net Core EF</li>
+            <li>ASP.Net MVC/WebApi</li>
+            <li>Xamarin Android</li>
+            <li>WordPress</li>
+          </ul>
+          <ul class="skills-list">
+            <h3 class="list-heading">Backend</h3>
+            <li>Firebase</li>
+            <li>MSSQL Server</li>
+            <li>Nginx</li>
+            <li>Ubuntu Server</li>
+            <li>Digital Ocean</li>
+            <li>Azure</li>
+          </ul>
         </div>
-        <div class="section-content">
-          <div class="skills-container">
-            <div class="skills-item">
-              <ul>Design
-                <li>Figma</li>
-                <li>Paint .Net</li>
-                <li>Material Design</li>
-              </ul>
+      </div>
+    </div>
+
+    <!-- Featured Projects -->
+    <div class="section">
+      <div class="section-title">
+        Projects
+      </div>
+      <div class="section-content">
+        <!-- Manad -->
+        <div class="project featured">
+          <h2 class="proj-head">
+            Manad Central
+          </h2>
+          <p class="proj-label">
+            CRM Dashboard built with Angular and .Net Core 3 Web Api
+          </p>
+          <div class="skills-labels">
+            <span class="skill">Angular</span>
+            <span class="skill">ASP.Net Core 3</span>
+            <span class="skill">MSSQL 2019</span>
+            <span class="skill">IIS</span>
+          </div>
+          <img src="./img/proj_manad.png" alt="" />
+        </div>
+        <!-- PTM -->
+        <div class="project featured">
+          <h2 class="proj-head">
+            Productivity Time Tracker
+            <a href="http://www.davidchintech.com"
+              ><i class="fas fa-external-link-alt"></i
+            ></a>
+            <a href="https://github.com/domainance/productivity-time-tracker"
+              ><i class="fab fa-github"></i
+            ></a>
+          </h2>
+          <p class="proj-label">Simple time tracking application</p>
+          <div class="skills-labels">
+            <span class="skill">HTML</span>
+            <span class="skill">CSS</span>
+            <span class="skill">JQuery</span>
+            <span class="skill">NodeJS</span>
+            <span class="skill">Firebase</span>
+            <span class="skill">Momentjs</span>
+          </div>
+          <img src="./img/proj_ptm.jpg" alt="" />
+        </div>
+        <!-- Material SCSS Generator -->
+        <div class="project featured">
+          <h2 class="proj-head">
+            Material IO SCSS Generator
+            <a href="https://davidchinapp.com"
+              ><i class="fas fa-external-link-alt"></i
+            ></a>
+            <a href="https://github.com/domainance/material-io-scss-start"
+              ><i class="fab fa-github"></i>
+            </a>
+          </h2>
+          <p class="proj-label">
+            App that scrapes Material IO Color Tool to generate template SCSS
+            files
+          </p>
+          <div class="skills-labels">
+            <span class="skill">HTML</span>
+            <span class="skill">CSS</span>
+            <span class="skill">NodeJS</span>
+            <span class="skill">Puppeteer</span>
+          </div>
+          <img src="./img/proj_scss.JPG" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Other Projects -->
+    <div class="section">
+      <div class="section-title">
+        Other Projects
+      </div>
+      <div class="section-content">
+        <!-- Personal Website V1 -->
+        <div class="project">
+          <div class="project-head">
+            <h3 class="proj-head">
+              Personal Website Version 1
+              <a
+                target="_blank"
+                href="https://github.com/domainance/domainance.github.io"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a target="_blank" href="https://domainance.github.io/v1/"
+                ><i class="fas fa-external-link-alt"></i
+              ></a>
+            </h3>
+          </div>
+          <div class="proj-content">
+            <p>
+              First version of my personal website. I learnt a lot about the
+              basics of website design.
+            </p>
+            <div class="skills-labels">
+              <span class="skill">HTML</span>
+              <span class="skill">CSS</span>
+              <span class="skill">JavaScript</span>
             </div>
-            <div class="skills-item">
-              <ul>Develop
-                <li>HTML5/CSS3</li>
-                <li>SASS/SCSS</li>
-                <li>Javascript (ES6)</li>
-                <li>NodeJS</li>
-                <li>Angular</li>
-                <li>.Net Core</li>
-              </ul>
+          </div>
+        </div>
+
+        <!-- Enactus -->
+        <div class="project">
+          <div class="project-head">
+            <h3 class="proj-head">
+              Enactus Websites
+              <a target="_blank" href="https://enactusunimelb.org.au"
+                ><i class="fas fa-external-link-alt"></i
+              ></a>
+            </h3>
+          </div>
+          <div class="proj-content">
+            <p>
+              Designed and built multiple websites for Enactus Melbourne's
+              various projects.
+            </p>
+            <div class="skills-labels">
+              <span class="skill">WordPress</span>
+              <span class="skill">Elementor</span>
+              <span class="skill">WooCommerce</span>
+              <span class="skill">CPanel</span>
+              <span class="skill">Web Hosting</span>
             </div>
-            <div class="skills-item">
-              <ul>Deploy
-                <li>Unix CLI</li>
-                <li>Ubuntu</li>
-                <li>Nginx</li>
-                <li>Microsoft Azure</li>
-              </ul>
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Snooker App -->
+        <div class="project">
+          <div class="project-head">
+            <h3 class="proj-head">
+              Snooker App
+              <a
+                target="_blank"
+                href="https://github.com/domainance/angular-snooker-app"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a
+                target="_blank"
+                href="https://angular-snooker-app.firebaseapp.com/"
+                ><i class="fas fa-external-link-alt"></i
+              ></a>
+            </h3>
+          </div>
+          <div class="proj-content">
+            <p>
+              Snooker Scoring App. I built this app in order to score on my
+              phone while playing snooker.
+            </p>
+            <div class="skills-labels">
+              <span class="skill">Angular</span>
+              <span class="skill">HTML</span>
+              <span class="skill">CSS</span>
             </div>
-            <div class="skills-item">
-              <ul>Misc
-                <li>HTML/CSS</li>
-                <li>Photoshop</li>
-              </ul>
+          </div>
+        </div>
+
+        <!-- Figma App -->
+        <div class="project">
+          <div class="project-head">
+            <h3 class="proj-head">
+              Figma
+              <a target="_blank" href="https://dribbble.com/domainance"
+                ><i class="fas fa-external-link-alt"></i
+              ></a>
+            </h3>
+          </div>
+          <div class="proj-content">
+            <p>
+              Practising my wireframing / prototyping skills by designing
+              mockups found onine in Figma.
+            </p>
+            <div class="skills-labels">
+              <span class="skill">Figma</span>
+              <span class="skill">UI/UX</span>
+              <span class="skill">Wireframing</span>
+              <span class="skill">Prototyping</span>
             </div>
           </div>
         </div>
       </div>
+    </div>
 
-      <!-- Featured Projects -->
-      <div class="section">
-        <h1>Header Section</h1>
-        <div class="section-content">
-          <h2 class="project-title">Project 1 </h2>
-        </div>
+    <!-- Footer -->
+    <div class="footer">
+      <div class="footer-content">
+        DC 2020 <i class="fas fa-heart"></i><i class="fas fa-code"></i>
       </div>
-
-      <!-- Other Projects -->
-      <div class="section">
-        <h1>Header Section</h1>
-      </div>
-
-      <!-- Footer -->
-      <div class="section"></div>
     </div>
 
     <!-- <script src="js/fullpage/fullpage.min.js"></script> -->

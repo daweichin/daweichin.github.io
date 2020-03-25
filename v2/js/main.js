@@ -1,12 +1,27 @@
-new fullpage("#fullpage", {
-  //options here
-  autoScrolling: true,
-  navigation: true,
-  scrollHorizontally: true,
-  recordHistory: false,
-  showActiveTooltip: true,
-  navigationTooltips: ["test", "secondslide"],
-  verticalCentered: false
-});
+(function() {
+  var elements;
+  var windowHeight;
 
-fullpage_api.setScrollingSpeed(600);
+  function init() {
+    elements = document.querySelectorAll(".section, .project");
+    windowHeight = window.innerHeight;
+  }
+
+  function checkPosition() {
+    for (var i = 0; i < elements.length; i++) {
+      var element = elements[i];
+      var positionFromTop = elements[i].getBoundingClientRect().top;
+
+      if (positionFromTop * 1.25 - windowHeight <= 0) {
+        element.classList.add("fade-in-element");
+        element.classList.remove("hidden");
+      }
+    }
+  }
+
+  window.addEventListener("scroll", checkPosition);
+  window.addEventListener("resize", init);
+
+  init();
+  checkPosition();
+})();

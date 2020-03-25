@@ -9,45 +9,72 @@ body {
   font-family: "Montserrat";
 }
 
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.fade-in-element {
+  animation: fadein 1s forwards;
+}
 .section {
   height: 100%;
   display: flex;
   justify-content: center;
-  padding: 128px 256px;
+  opacity: 0;
+  transition: opacity 1s;
+  @include breakpoint(xs) {
+    padding: 32px 32px;
+    font-size: 1.6rem;
+    flex-direction: column;
+    align-items: center;
+  }
   @include breakpoint(sm) {
-    padding: 128px 128px;
+    padding: 64px 64px;
     font-size: 1.6rem;
   }
 
-  @include breakpoint(xs){
-    padding: 128px 0px;
+  @include breakpoint(md) {
+    padding: 64px 128px;
     font-size: 1.6rem;
-    flex-direction: column;
+  }
+
+  @include breakpoint(lg) {
+    padding: 64px 256px;
   }
 }
 
 .section-title {
-  padding-right: 50px;
-  width: 250px;
+  padding-right: 70px;
+  margin-bottom: 2.4rem;
   text-transform: uppercase;
-  text-align: left;
-  color: red;
-  @include breakpoint (xs) {
-    text-align: left;
+  text-align: right;
+  font-size: $heading-text;
+  color: $red;
+  min-width: 200px;
+  line-height: 1;
+  @include breakpoint(xs) {
+    text-align: center;
+    padding: 16px 0;
   }
 }
 
 .section-content {
   word-break: break-word;
-  width: auto;
-}
 
-* {
-  color: black;
-}
-
-#fp-nav ul li .fp-tooltip:hover {
-  color: black !important;
+  @include breakpoint(xs) {
+    width: 80%;
+    margin: 0 auto;
+  }
+  @include breakpoint(md) {
+    width: 600px;
+  }
+  @include breakpoint(lg) {
+    width: 800px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

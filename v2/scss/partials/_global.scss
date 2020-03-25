@@ -1,23 +1,49 @@
+// Text Sizes
+$heading-text: 2.4rem;
+
+// Colors
+$red: #e70505;
+$dark-red: #aa1111;
+$dark-blue: #2222a5;
+$blue: #3f42fd;
+
+// Font Awesome Icon Override
+.fab,
+.fas {
+  // color: #1111cc;
+  color: $blue;
+
+  &:hover {
+    //   color: #111188;
+    color: $dark-blue;
+  }
+}
 // min-width implies mobile first approach
 
 @mixin breakpoint($class) {
-    @if $class == xs {
-      @media (max-width: 767px) { @content; }
+  @if $class == xs {
+    @media (max-width: 767px) {
+      @content;
     }
-   
-    @else if $class == sm {
-      @media (min-width: 768px) { @content; }
+  } @else if $class == sm {
+    @media (min-width: 768px) {
+      @content;
     }
-   
-    @else if $class == md {
-      @media (min-width: 992px) { @content; }
+  } @else if $class == md {
+    @media (min-width: 992px) {
+      @content;
     }
-   
-    @else if $class == lg {
-      @media (min-width: 1200px) { @content; }
+  } @else if $class == lg {
+    @media (min-width: 1200px) {
+      @content;
     }
-   
-    @else {
-      @warn "Breakpoint mixin supports: xs, sm, md, lg";
-    }
+  } @else {
+    @warn "Breakpoint mixin supports: xs, sm, md, lg";
   }
+}
+
+p,
+li,
+h2 {
+  color: #222;
+}
