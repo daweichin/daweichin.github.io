@@ -25,7 +25,7 @@ ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 cover:
-    image: "yuki-1.jpg" # image path/url
+    image: "/img/yuki-1.jpg" # image path/url
     alt: "<alt text>" # alt text
     caption: "<text>" # display caption under cover
     relative: false # when using page bundles set this to true
@@ -38,7 +38,7 @@ editPost:
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Suspendisse in est ante in nibh mauris cursus. In egestas erat imperdiet sed euismod nisi porta lorem. Vel risus commodo viverra maecenas accumsan lacus vel. Volutpat diam ut venenatis tellus. Eu lobortis elementum nibh tellus molestie nunc non blandit. Eget duis at tellus at urna condimentum mattis. Ut venenatis tellus in metus vulputate eu scelerisque felis. Viverra ipsum nunc aliquet bibendum enim facilisis gravida neque convallis. Vulputate dignissim suspendisse in est ante. Tellus at urna condimentum mattis pellentesque id nibh tortor. Nisl pretium fusce id velit ut tortor pretium viverra suspendisse. Leo vel orci porta non pulvinar neque laoreet suspendisse. Volutpat ac tincidunt vitae semper quis. Et ultrices neque ornare aenean. Id aliquet lectus proin nibh. Et netus et malesuada fames ac.
 
-![Test Image](yuki-1.jpg)
+![Test Image](/img/yuki-1.jpg)
 
 Euismod in pellentesque massa placerat. Volutpat est velit egestas dui id ornare arcu. Porttitor massa id neque aliquam vestibulum morbi blandit. Vitae elementum curabitur vitae nunc sed velit dignissim. Integer enim neque volutpat ac tincidunt vitae. Viverra accumsan in nisl nisi scelerisque eu ultrices vitae auctor. Maecenas pharetra convallis posuere morbi leo urna molestie. Varius quam quisque id diam vel quam. Placerat vestibulum lectus mauris ultrices eros. Diam in arcu cursus euismod quis viverra. Nunc aliquet bibendum enim facilisis. Elementum curabitur vitae nunc sed velit dignissim sodales ut eu. Urna condimentum mattis pellentesque id nibh tortor id aliquet.
 

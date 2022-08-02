@@ -22,3 +22,8 @@ git submodule update --init --recursive # needed when you reclone your repo (sub
 // TO UPDATE THEME:
 git submodule update --remote --merge
 ```
+
+## Github Settings
+https://gohugo.io/hosting-and-deployment/hosting-on-github/
+
+The gh-pages action serves from /doc (not mentioned at time of testing)
