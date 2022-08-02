@@ -1,0 +1,14 @@
+# Dawei Blog
+
+Made with Hugo, theme from: https://github.com/adityatelange/hugo-PaperMod
+
+## Adding content
+hugo new posts/postname.md
+
+Images to be stored in each post, rather than global static
+
+## Local Development
+hugo server -D
+
+## Building for Production
+hugo -D
