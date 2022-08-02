@@ -1,6 +1,6 @@
 # Dawei Blog
 
-Made with Hugo, theme from: https://github.com/adityatelange/hugo-PaperMod
+Made with Hugo
 
 ## Adding content
 hugo new posts/postname.md
@@ -12,3 +12,13 @@ hugo server -D
 
 ## Building for Production
 hugo -D
+
+## Theme
+theme from: https://github.com/adityatelange/hugo-PaperMod
+```
+git submodule add --depth=1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
+git submodule update --init --recursive # needed when you reclone your repo (submodules may not get cloned automatically)
+
+// TO UPDATE THEME:
+git submodule update --remote --merge
+```
