@@ -50,7 +50,7 @@ In 2018, a popular Youtuber who goes by "Abroad in Japan" had uploaded a video a
 
 Having experienced a similar cycling adventure in Japan the year before, Brandon and myself had a good idea of what to expect and how to plan for the trip. Logistically, Japan is probably one of the best countries you can cycle in, with many "combinis" acting as a safe backup for food and hydration even in rural areas. The drivers are extremely safe, road quality amazing and 
 
-We rented our bikes in advance from [Global Wheels](https://roadbikerentaljapan.com/), which provided us with solid road bikes with the option to add Paniers which would how we carried stuff around during the cycle. They also provided suggestions and help for our route, which was handy, and also suggestions for future routes which I hopefully will find time to come back and do.
+We rented our bikes in advance from [Global Wheels](https://roadbikerentaljapan.com/), which provided us with solid road bikes with the option to add panniers which would be how we carried stuff around during the cycle. They also provided suggestions and help for our route, which was handy, and also suggestions for future routes which I hopefully will find time to come back and do.
 
 We had also planned the trip to hopefully get as much "koyo" as possible, however this can be tricky when planning a trip months in advance as the season can change year on year and even by prefecture.
 

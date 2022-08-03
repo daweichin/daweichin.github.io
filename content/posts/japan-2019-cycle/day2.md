@@ -1,9 +1,9 @@
 ---
-title: "My 1st post"
-date: 2020-09-15T11:30:03+00:00
+title: "Cycling in Japan Day 2 - Nara to Wakayama"
+date: 2019-11-25T11:30:03+00:00
 # weight: 1
 # aliases: ["/first"]
-tags: ["japan", "cycle", "自転車の旅"]
+tags: ["japan", "2019", "cycle", "自転車の旅"]
 author: "Me"
 # author: ["Me", "You"] # multiple authors
 showToc: true
@@ -35,3 +35,11 @@ editPost:
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
+
+{{< rawhtml >}}
+<div class='strava-embed-placeholder' data-embed-type='activity' data-embed-id='2889814609'></div><script src='https://strava-embeds.com/embed.js'></script>
+{{< /rawhtml >}}
+
+## Day 2 - Nara to Wakayama
+
+Day 2 started with a quick visit to nearby Todaiji Temple, a popular tourist attraction which was evident by the crowds at the temple and surrounding parks. 

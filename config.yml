@@ -8,7 +8,7 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
-# googleAnalytics: UA-123-45
+googleAnalytics: G-MW4KBTTTCV
 
 outputs:
   home:
@@ -83,8 +83,6 @@ params:
     Content: Welcome to my blog
 
   socialIcons:
-    - name: twitter
-      url: "https://twitter.com/"
     - name: stackoverflow
       url: "https://stackoverflow.com"
     - name: github
@@ -92,7 +90,7 @@ params:
 
   analytics:
     google:
-      SiteVerificationTag: "XYZabc"
+      SiteVerificationTag: "test1234"
     # bing:
     #   SiteVerificationTag: "XYZabc"
     # yandex:
