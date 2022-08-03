@@ -1,5 +1,7 @@
 # Dawei Blog
 
+[![github pages](https://github.com/daweichin/daweichin.github.io/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/daweichin/daweichin.github.io/actions/workflows/gh-pages.yml)
+
 Made with Hugo
 
 ## Adding content
