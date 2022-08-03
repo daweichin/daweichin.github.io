@@ -3,9 +3,9 @@
 Made with Hugo
 
 ## Adding content
-hugo new posts/postname.md
-
-Images to be stored in each post, rather than global static
+Hugo archetypes
+Ensure posts.md exists in /archetypes, then run:
+```hugo new posts/japan-2019-cycle/day3.md```
 
 ## Local Development
 hugo server -D
@@ -13,12 +13,12 @@ hugo server -D
 ## Building for Production
 hugo -D
 
+Preferred method to build is through pipeline
 ## Theme
 theme from: https://github.com/adityatelange/hugo-PaperMod
 ```
 git submodule add --depth=1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
 git submodule update --init --recursive # needed when you reclone your repo (submodules may not get cloned automatically)
-
 // TO UPDATE THEME:
 git submodule update --remote --merge
 ```
@@ -26,4 +26,4 @@ git submodule update --remote --merge
 ## Github Settings
 https://gohugo.io/hosting-and-deployment/hosting-on-github/
 
-The gh-pages action serves from /doc (not mentioned at time of testing)
+Deployment source --> GitHub Actions
