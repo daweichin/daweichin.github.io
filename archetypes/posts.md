@@ -14,7 +14,7 @@ comments: false
 description: "Desc Text."
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
-disableShare: false
+disableShare: true
 disableHLJS: false
 hideSummary: false
 searchHidden: true
@@ -35,3 +35,6 @@ editPost:
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
+
+<!-- Link embed: [Day 1]({{< ref "/posts/japan-2019-cycle/day1.md" >}} "Osaka to Nara") -->
+<!--  Photos: ![Along the River](/japan-2019-img/day2/2.jpg) -->

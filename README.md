@@ -8,6 +8,7 @@ Made with Hugo
 Hugo archetypes
 Ensure posts.md exists in /archetypes, then run:
 ```hugo new posts/japan-2019-cycle/day3.md```
+```hugo new posts/reflections/uni.md```
 
 ## Local Development
 hugo server -D
