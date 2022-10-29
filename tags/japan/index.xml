@@ -9,85 +9,40 @@
       <link>https://daweichin.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 15 Sep 2020 11:30:03 +0000</lastBuildDate><atom:link href="https://daweichin.github.io/tags/japan/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Cycling in Japan Day 10</title>
-      <link>https://daweichin.github.io/posts/japan-2019-cycle/day10/</link>
-      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
-      
-      <guid>https://daweichin.github.io/posts/japan-2019-cycle/day10/</guid>
-      <description>Desc Text.</description>
-    </item>
-    
-    <item>
-      <title>Cycling in Japan Day 11</title>
-      <link>https://daweichin.github.io/posts/japan-2019-cycle/day11/</link>
-      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
-      
-      <guid>https://daweichin.github.io/posts/japan-2019-cycle/day11/</guid>
-      <description>Desc Text.</description>
-    </item>
-    
-    <item>
-      <title>Cycling in Japan Day 12</title>
-      <link>https://daweichin.github.io/posts/japan-2019-cycle/day12/</link>
-      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
-      
-      <guid>https://daweichin.github.io/posts/japan-2019-cycle/day12/</guid>
-      <description>Desc Text.</description>
-    </item>
-    
-    <item>
-      <title>Cycling in Japan Day 4</title>
-      <link>https://daweichin.github.io/posts/japan-2019-cycle/day4/</link>
-      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
-      
-      <guid>https://daweichin.github.io/posts/japan-2019-cycle/day4/</guid>
-      <description>Desc Text.</description>
-    </item>
-    
-    <item>
-      <title>Cycling in Japan Day 5</title>
-      <link>https://daweichin.github.io/posts/japan-2019-cycle/day5/</link>
-      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
-      
-      <guid>https://daweichin.github.io/posts/japan-2019-cycle/day5/</guid>
-      <description>Desc Text.</description>
-    </item>
-    
-    <item>
-      <title>Cycling in Japan Day 6</title>
-      <link>https://daweichin.github.io/posts/japan-2019-cycle/day6/</link>
-      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
-      
-      <guid>https://daweichin.github.io/posts/japan-2019-cycle/day6/</guid>
-      <description>Desc Text.</description>
-    </item>
-    
+    <lastBuildDate>Sat, 30 Nov 2019 11:30:03 +0000</lastBuildDate><atom:link href="https://daweichin.github.io/tags/japan/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cycling in Japan Day 7</title>
       <link>https://daweichin.github.io/posts/japan-2019-cycle/day7/</link>
-      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      <pubDate>Sat, 30 Nov 2019 11:30:03 +0000</pubDate>
       
       <guid>https://daweichin.github.io/posts/japan-2019-cycle/day7/</guid>
       <description>Desc Text.</description>
     </item>
     
     <item>
-      <title>Cycling in Japan Day 8</title>
-      <link>https://daweichin.github.io/posts/japan-2019-cycle/day8/</link>
-      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      <title>Cycling in Japan Day 6</title>
+      <link>https://daweichin.github.io/posts/japan-2019-cycle/day6/</link>
+      <pubDate>Fri, 29 Nov 2019 11:30:03 +0000</pubDate>
       
-      <guid>https://daweichin.github.io/posts/japan-2019-cycle/day8/</guid>
+      <guid>https://daweichin.github.io/posts/japan-2019-cycle/day6/</guid>
       <description>Desc Text.</description>
     </item>
     
     <item>
-      <title>Cycling in Japan Day 9</title>
-      <link>https://daweichin.github.io/posts/japan-2019-cycle/day9/</link>
-      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      <title>Cycling in Japan Day 5</title>
+      <link>https://daweichin.github.io/posts/japan-2019-cycle/day5/</link>
+      <pubDate>Thu, 28 Nov 2019 11:30:03 +0000</pubDate>
       
-      <guid>https://daweichin.github.io/posts/japan-2019-cycle/day9/</guid>
+      <guid>https://daweichin.github.io/posts/japan-2019-cycle/day5/</guid>
+      <description>Desc Text.</description>
+    </item>
+    
+    <item>
+      <title>Cycling in Japan Day 4</title>
+      <link>https://daweichin.github.io/posts/japan-2019-cycle/day4/</link>
+      <pubDate>Wed, 27 Nov 2019 11:30:03 +0000</pubDate>
+      
+      <guid>https://daweichin.github.io/posts/japan-2019-cycle/day4/</guid>
       <description>Desc Text.</description>
     </item>
     
@@ -116,6 +71,51 @@
       
       <guid>https://daweichin.github.io/posts/japan-2019-cycle/day1/</guid>
       <description>The Beginning</description>
+    </item>
+    
+    <item>
+      <title>Cycling in Japan Day 10</title>
+      <link>https://daweichin.github.io/posts/japan-2019-cycle/day10/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://daweichin.github.io/posts/japan-2019-cycle/day10/</guid>
+      <description>Desc Text.</description>
+    </item>
+    
+    <item>
+      <title>Cycling in Japan Day 11</title>
+      <link>https://daweichin.github.io/posts/japan-2019-cycle/day11/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://daweichin.github.io/posts/japan-2019-cycle/day11/</guid>
+      <description>Desc Text.</description>
+    </item>
+    
+    <item>
+      <title>Cycling in Japan Day 12</title>
+      <link>https://daweichin.github.io/posts/japan-2019-cycle/day12/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://daweichin.github.io/posts/japan-2019-cycle/day12/</guid>
+      <description>Desc Text.</description>
+    </item>
+    
+    <item>
+      <title>Cycling in Japan Day 8</title>
+      <link>https://daweichin.github.io/posts/japan-2019-cycle/day8/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://daweichin.github.io/posts/japan-2019-cycle/day8/</guid>
+      <description>Desc Text.</description>
+    </item>
+    
+    <item>
+      <title>Cycling in Japan Day 9</title>
+      <link>https://daweichin.github.io/posts/japan-2019-cycle/day9/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://daweichin.github.io/posts/japan-2019-cycle/day9/</guid>
+      <description>Desc Text.</description>
     </item>
     
   </channel>
