@@ -1,6 +1,6 @@
 ---
 title: "Cycling in Japan Day 5"
-date: 2020-09-15T11:30:03+00:00
+date: 2019-11-28T11:30:03+00:00
 # weight: 1
 # aliases: ["/first"]
 tags: ["japan", "cycle", "自転車の旅"]
