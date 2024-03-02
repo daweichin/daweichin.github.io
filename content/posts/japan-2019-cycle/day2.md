@@ -11,7 +11,7 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-description: "Desc Text."
+description: "Day 2"
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: true
@@ -39,21 +39,6 @@ editPost:
 {{< rawhtml >}}
 <div class='strava-embed-placeholder' data-embed-type='activity' data-embed-id='2889814609'></div><script src='https://strava-embeds.com/embed.js'></script>
 {{< /rawhtml >}}
-
-A summary and link references of each day of the ride is below:
-
-* [Day 1 - Osaka to Nara]({{< ref "/posts/japan-2019-cycle/day1.md" >}} "Osaka to Nara") 
-* [Day 2 - Nara to Wakayama]({{< ref "/posts/japan-2019-cycle/day2.md" >}} "Nara to Wakayama")
-* [Day 3 - Wakayama to Miyoshi]({{< ref "/posts/japan-2019-cycle/day3.md" >}} "Wakayama to Miyoshi")
-* [Day 4 - Miyoshi to Kochi]({{< ref "/posts/japan-2019-cycle/day4.md" >}} "Miyoshi to Kochi")
-* [Day 5 - Rest Day]({{< ref "/posts/japan-2019-cycle/day5.md" >}} "Rest Day")
-* [Day 6 - Kochi to Naka Tosa]({{< ref "/posts/japan-2019-cycle/day6.md" >}} "Kochi to Naka Tosa")
-* [Day 7 - Naka Tosa to Shimanto]({{< ref "/posts/japan-2019-cycle/day7.md" >}} "Naka Tosa to Shimanto")
-* [Day 8 - Shimanto to Uwajima]({{< ref "/posts/japan-2019-cycle/day8.md" >}} "Shimanto to Uwajima")
-* [Day 9 - Uwajima to Matsuyama]({{< ref "/posts/japan-2019-cycle/day9.md" >}} "Uwajima to Matsuyama")
-* [Day 10 - Matsuyama to Imabari]({{< ref "/posts/japan-2019-cycle/day10.md" >}} "Matsuyama to Imabari")
-* [Day 11 - Imabari to Omishima]({{< ref "/posts/japan-2019-cycle/day11.md" >}} "Imabari to Omishima")
-* [Day 12 - Omishima to Onomichi]({{< ref "/posts/japan-2019-cycle/day12.md" >}} "Omishima to Onomichi")
 
 ## Day 2 - Settling in
 

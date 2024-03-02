@@ -11,7 +11,7 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-description: "Desc Text."
+description: "Day 7"
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: false
@@ -36,4 +36,17 @@ editPost:
     appendFilePath: true # to append file path to Edit link
 ---
 
-## WIP
+<div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="2900648788" data-style="standard"></div><script src="https://strava-embeds.com/embed.js"></script>
+
+## Day 7 - Naka Tosa to Shimanto
+
+Waking up in the morning to take some drone footage of the sunrise, then going for a morning bath in the Onsen, then going for a breakfast with a view that I probably won't top for the rest of my life, felt like something I would never experience in Australia or possibly anywhere else in the world.
+
+![Ocean](/japan-2019-img/day7/1.jpg)
+![Posing](/japan-2019-img/day7/2.jpg)
+![Breakfast](/japan-2019-img/day7/3.jpg)
+
+There was a pretty big hill coming out of Naka Tosa, but when you're on a bike hill's are part of what makes cycling interesting. We rolled through country roads, for the first half more inland but after dropping down from the mountains a lot of views of the ocean were on offer before we finally reached Shimanto.
+
+![Hill](/japan-2019-img/day7/4.jpg)
+![Shimanto](/japan-2019-img/day7/5.jpg)
