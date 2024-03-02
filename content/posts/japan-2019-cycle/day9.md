@@ -36,7 +36,9 @@ editPost:
     appendFilePath: true # to append file path to Edit link
 ---
 
+{{< rawhtml >}}
 <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="2905759741" data-style="standard"></div><script src="https://strava-embeds.com/embed.js"></script>
+{{< /rawhtml >}}
 
 ## Day 9 - Uwajima to Matsuyama
 
