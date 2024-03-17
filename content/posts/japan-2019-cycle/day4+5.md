@@ -1,5 +1,5 @@
 ---
-title: "Cycling in Japan Day 4"
+title: "Cycling in Japan Day 4 + 5"
 date: 2019-11-27T11:30:03+00:00
 # weight: 1
 # aliases: ["/first"]
@@ -56,4 +56,3 @@ Having learnt our lesson the previous year - we planned in a rest stop and it wa
 ![Shotengai](/japan-2019-img/day5/2.jpg)
 ![Kochi Castle](/japan-2019-img/day5/3.jpg)
 ![Beer](/japan-2019-img/day5/4.jpg)
-
