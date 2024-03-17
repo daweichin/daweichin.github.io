@@ -5,47 +5,41 @@
     <link>https://daweichin.github.io/tags/</link>
     <description>Recent content in Tags on Dawei&#39;s Blog</description>
     <image>
+      <title>Dawei&#39;s Blog</title>
       <url>https://daweichin.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://daweichin.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 04 Dec 2019 11:30:03 +0000</lastBuildDate><atom:link href="https://daweichin.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 04 Dec 2019 11:30:03 +0000</lastBuildDate>
+    <atom:link href="https://daweichin.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cycle</title>
       <link>https://daweichin.github.io/tags/cycle/</link>
       <pubDate>Wed, 04 Dec 2019 11:30:03 +0000</pubDate>
-      
       <guid>https://daweichin.github.io/tags/cycle/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Japan</title>
       <link>https://daweichin.github.io/tags/japan/</link>
       <pubDate>Wed, 04 Dec 2019 11:30:03 +0000</pubDate>
-      
       <guid>https://daweichin.github.io/tags/japan/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>自転車の旅</title>
       <link>https://daweichin.github.io/tags/%E8%87%AA%E8%BB%A2%E8%BB%8A%E3%81%AE%E6%97%85/</link>
       <pubDate>Wed, 04 Dec 2019 11:30:03 +0000</pubDate>
-      
       <guid>https://daweichin.github.io/tags/%E8%87%AA%E8%BB%A2%E8%BB%8A%E3%81%AE%E6%97%85/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>2019</title>
       <link>https://daweichin.github.io/tags/2019/</link>
       <pubDate>Mon, 25 Nov 2019 11:30:03 +0000</pubDate>
-      
       <guid>https://daweichin.github.io/tags/2019/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>
